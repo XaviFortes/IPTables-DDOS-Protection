@@ -1,4 +1,3 @@
-#!/bin/bash
 /sbin/iptables -t mangle -A PREROUTING -m conntrack --ctstate INVALID -j DROP
 /sbin/iptables -t mangle -A PREROUTING -p tcp --tcp-flags FIN,SYN,RST,PSH,ACK,URG NONE -j DROP
 /sbin/iptables -t mangle -A PREROUTING -p tcp --tcp-flags FIN,SYN FIN,SYN -j DROP
