@@ -1,3 +1,4 @@
+#!/bin/bash
 clear
 wget -O antiddos.sh 'https://raw.githubusercontent.com/XaviFortes/IPTables-DDOS-Protection/master/antiddos.sh'
 chmod +x antiddos.sh
