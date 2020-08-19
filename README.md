@@ -11,7 +11,7 @@ chmod +x antiddos.sh
 
 ### Auto-Install Script
 ```bash
-wget -O updater.sh 'https://github.com/XaviFortes/IPTables-DDOS-Protection/blob/master/updater.sh' && chmod +x updater.sh && ./updater.sh
+wget -O updater.sh 'https://raw.githubusercontent.com/XaviFortes/IPTables-DDOS-Protection/master/updater.sh' && chmod +x updater.sh && ./updater.sh
 ```
 If a new version, of the antiddos script is available just do:
 ```bash
